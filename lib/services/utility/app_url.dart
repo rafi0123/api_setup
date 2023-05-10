@@ -5,4 +5,7 @@ class AppUrl {
   // fetch world covid state
   static const String worldStateApi = '${baseurl}all';
   static const String countriesList = '${baseurl}countries';
+
+  // Random User Url
+  static const String randomBaseUrl = 'https://randomuser.me/api/?results=10';
 }
