@@ -13,6 +13,7 @@ class RandomUser extends StatefulWidget {
   State<RandomUser> createState() => _RandomUserState();
 }
 
+
 class _RandomUserState extends State<RandomUser> {
   List<dynamic> users = [];
   Future<void> getRandomUser() async {
